@@ -1,6 +1,6 @@
-Title: Photos
+Title: Instagram
 Date: 2022-11-24 10:20
-Category: photos
+Category: Posts
 sortorder: 002
 
 

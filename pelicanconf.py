@@ -6,7 +6,7 @@ PATH = "content"
 
 TIMEZONE = "Europe/Rome"
 
-THEME = "notmyidea" 
+THEME = "notmyidea"
 
 DEFAULT_LANG = "en"
 
@@ -21,10 +21,7 @@ AUTHOR_FEED_RSS = None
 LINKS = (("Website by JCTECH", "https://jctech.xyz"),)
 
 # Social widget
-SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
-)
+SOCIAL = ()
 
 DEFAULT_PAGINATION = 10
 
