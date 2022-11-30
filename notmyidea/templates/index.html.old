@@ -5,6 +5,7 @@
     {% for article in articles_page.object_list %}
 
         {# First item #}
+        {% if loop.first and not articles_page.has_previous() %}
             <aside id="featured" class="body">
                 <article>
                     <h1 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
@@ -16,6 +17,7 @@
                     <h1>Other articles</h1>
                     <hr />
                     <ol id="posts-list" class="hfeed">
+            {% endif %}
         {# other items #}
         {% else %}
             {% if loop.first %}
