@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 pelican = {extras = ["markdown"], version = "*"}
 markdown = "*"
+livereload = "*"
+invoke = "*"
 
 [dev-packages]
 
